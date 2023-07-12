@@ -56,12 +56,14 @@
   width: var(--sidebar-collapsed-w);
   background-color: #051e34;
   height: calc(100vh - var(--main-nav-height));
+  background-image: url(../img/sidebar-bg.png);
 }
 
 .sidebar__expanded {
   width: var(--sidebar-expanded-w);
   background-color: #051e34;
   height: calc(100vh - var(--main-nav-height));
+  background-image: url(../img/sidebar-bg.png);
 
   display: none;
 }
