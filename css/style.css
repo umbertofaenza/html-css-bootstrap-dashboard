@@ -34,6 +34,10 @@
   display: none;
 }
 
+#main-header .navbar-collapse {
+  flex-grow: 0;
+}
+
 /** SIDEBAR **/
 .sidebar__collapsed {
   width: var(--sidebar-collapsed-w);
