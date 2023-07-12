@@ -30,6 +30,10 @@
   border: none;
 }
 
+#main-header .dropdown-toggle::after {
+  display: none;
+}
+
 /** SIDEBAR **/
 .sidebar__collapsed {
   width: var(--sidebar-collapsed-w);
