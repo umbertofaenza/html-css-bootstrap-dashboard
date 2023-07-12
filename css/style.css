@@ -22,6 +22,14 @@
   flex-grow: 1;
 }
 
+#main-header .fa-bell {
+  color: #ff8f00;
+}
+
+#main-header .navbar-toggler {
+  border: none;
+}
+
 /** SIDEBAR **/
 .sidebar__collapsed {
   width: var(--sidebar-collapsed-w);
