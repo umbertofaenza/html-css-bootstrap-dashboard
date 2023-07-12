@@ -26,6 +26,14 @@
   height: calc(100vh - var(--main-nav-height));
 }
 
+.sidebar__expanded {
+  width: 200px;
+  background-color: #051e34;
+  height: calc(100vh - var(--main-nav-height));
+
+  display: none;
+}
+
 /*
 ################
 #  RESPONSIVE  # 
