@@ -1,3 +1,7 @@
+:root {
+  --main-nav-height: 56px;
+}
+
 /*
 ################
 #  GENERALS    # 
@@ -13,6 +17,13 @@
 /** MAIN HEADER **/
 #main-header form {
   flex-grow: 1;
+}
+
+/** SIDEBAR **/
+.sidebar__collapsed {
+  width: 80px;
+  background-color: #051e34;
+  height: calc(100vh - var(--main-nav-height));
 }
 
 /*
