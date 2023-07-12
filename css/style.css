@@ -42,6 +42,11 @@
   flex-grow: 0;
 }
 
+.dropdown-menu[data-bs-popper] {
+  top: 85%;
+  left: -155px;
+}
+
 /** SIDEBAR **/
 .sidebar__collapsed {
   width: var(--sidebar-collapsed-w);
