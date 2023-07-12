@@ -10,6 +10,11 @@
 ################
 */
 
+/** MAIN HEADER **/
+#main-header form {
+  flex-grow: 1;
+}
+
 /*
 ################
 #  RESPONSIVE  # 
