@@ -39,3 +39,13 @@
 #  RESPONSIVE  # 
 ################
 */
+
+@media screen and (min-width: 992px) {
+  .sidebar__collapsed {
+    display: none;
+  }
+
+  .sidebar__expanded {
+    display: flex;
+  }
+}
