@@ -1,5 +1,8 @@
 :root {
   --main-nav-height: 56px;
+
+  --sidebar-collapsed-w: 80px;
+  --sidebar-expanded-w: 200px;
 }
 
 /*
@@ -21,17 +24,23 @@
 
 /** SIDEBAR **/
 .sidebar__collapsed {
-  width: 80px;
+  width: var(--sidebar-collapsed-w);
   background-color: #051e34;
   height: calc(100vh - var(--main-nav-height));
 }
 
 .sidebar__expanded {
-  width: 200px;
+  width: var(--sidebar-expanded-w);
   background-color: #051e34;
   height: calc(100vh - var(--main-nav-height));
 
   display: none;
+}
+
+/** MAIN CONTENT **/
+#main-content {
+  width: calc(100% - var(--sidebar-collapsed-w));
+  background-color: #f8f9fa;
 }
 
 /*
