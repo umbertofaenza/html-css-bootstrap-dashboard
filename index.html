@@ -150,7 +150,8 @@
                             <div class="content-box d-flex align-items-center">
                                 <span>Nuovo studente</span>
                                 <div class="add-student mx-2">
-                                    <button type="button" class="btn btn-outline-light">+</button>
+                                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasStudent" aria-controls="offcanvasStudent">+</button>
                                 </div>
                             </div>
                         </div>
@@ -482,6 +483,17 @@
             </div>
         </div>
     </main>
+
+    <!-- Off Canvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasStudent" aria-labelledby="offcanvasStudenLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasStudentLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

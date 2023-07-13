@@ -11,6 +11,12 @@
 ################
 */
 
+/** Off Canvas */
+.offcanvas.offcanvas-end {
+  width: 100%;
+  max-width: 768px;
+}
+
 /*
 ################
 #  SECTIONS    # 
