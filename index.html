@@ -486,12 +486,84 @@
 
     <!-- Off Canvas -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasStudent" aria-labelledby="offcanvasStudenLabel">
+        <!-- header -->
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasStudentLabel">Offcanvas right</h5>
+            <h5 class="offcanvas-title" id="offcanvasStudentLabel">Inserisci un nuovo studente</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+        <!-- body -->
         <div class="offcanvas-body">
-            ...
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- nome -->
+                    <div class="col-6">
+                        <label for="StudentName">Nome</label>
+                        <input type="text" class="form-control" id="StudentName" name="StudentName">
+                    </div>
+                    <!-- cognome -->
+                    <div class="col-6">
+                        <label for="StudentLastName">Cognome</label>
+                        <input type="text" class="form-control" id="StudentLastName" name="StudentLastName">
+                    </div>
+                    <!-- email -->
+                    <div class="col-6">
+                        <label for="StudentEmail">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" id="StudentEmail" aria-label="StudentEmail"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <!-- password -->
+                    <div class="col-6">
+                        <label for="StudentPassword">Password</label>
+                        <input type="password" class="form-control" id="StudentPassword" name="StudentPassword">
+                    </div>
+                    <!-- email -->
+                    <div class="col-6">
+                        <label for="StudentEmail">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" id="StudentEmail" aria-label="StudentEmail"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <!-- password -->
+                    <div class="col-6">
+                        <label for="StudentPassword">Password</label>
+                        <input type="password" class="form-control" id="StudentPassword" name="StudentPassword">
+                    </div>
+                    <!-- indirizzo -->
+                    <div class="col-12">
+                        <label for="StudentAddress">Indirizzo</label>
+                        <input type="text" class="form-control" id="StudentAddress" name="StudentAddress">
+                    </div>
+                    <!-- citta stato cap -->
+                    <div class="col-6">
+                        <label for="StudentCity">Città</label>
+                        <input type="text" class="form-control" id="StudentCity" name="StudentCity">
+                    </div>
+                    <div class="col-4">
+                        <label for="StudentNation">Stato</label>
+                        <select class="form-control" id="StudentNation" name="StudentNation">
+                            <option value="">Scegli...</option>
+                            <option value="1">Stato 1</option>
+                            <option value="2">Stato 2</option>
+                            <option value="3">Stato 3</option>
+                            <option value="4">Stato 4</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <label for="StudentCap">Cap</label>
+                        <input type="text" class="form-control" id="StudentCap" name="StudentCap">
+                    </div>
+                    <!-- password -->
+                    <div class="col-12">
+                        <label for="StudentPhoto" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="StudentPhoto">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
