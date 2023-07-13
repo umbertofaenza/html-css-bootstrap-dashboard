@@ -83,6 +83,9 @@
 #main-content {
   width: calc(100% - var(--sidebar-collapsed-w));
   background-color: #f8f9fa;
+
+  height: calc(100vh - var(--main-nav-height));
+  overflow-y: auto;
 }
 
 .main-content__header {
