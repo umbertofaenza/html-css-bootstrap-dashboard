@@ -79,6 +79,7 @@
 .vertical-nav > div {
   padding: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .vertical-nav > div:hover {
