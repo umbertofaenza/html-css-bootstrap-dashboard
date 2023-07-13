@@ -89,6 +89,23 @@
   background-color: #1b72e8;
 }
 
+.main-content__header .add-student {
+  width: 40px;
+  aspect-ratio: 1;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content__header .badge.text-bg_ms {
+  background-color: #165bba;
+}
+
 /*
 ################
 #  RESPONSIVE  # 
