@@ -131,6 +131,16 @@ table img {
   cursor: pointer;
 }
 
+.accordion-item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
 /*
 ################
 #  RESPONSIVE  # 
