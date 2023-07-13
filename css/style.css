@@ -26,6 +26,11 @@
 /* 
 * MAIN HEADER 
 */
+
+#main-header .navbar {
+  flex-wrap: nowrap;
+}
+
 #main-header .mobile-logo {
   height: 40px;
 }
